@@ -2,16 +2,22 @@
 "name": "Kalkulator RAB Proyek Konstruksi",
 "short_name": "BuildCalc Pro",
 "description": "Aplikasi pintar untuk menghitung Rencana Anggaran Biaya proyek konstruksi perumahan dan ruko.",
-"start_url": ".",
+"start_url": "./index.html",
 "display": "standalone",
 "background_color": "#f8fafc",
 "theme_color": "#0f172a",
 "orientation": "any",
 "icons": [
 {
-"src": "./icon.svg",
-"sizes": "192x192 512x512",
-"type": "image/svg+xml",
+"src": "./icon192px.png",
+"sizes": "192x192",
+"type": "image/png",
+"purpose": "any maskable"
+},
+{
+"src": "./icon512px.png",
+"sizes": "512x512",
+"type": "image/png",
 "purpose": "any maskable"
 }
 ]
